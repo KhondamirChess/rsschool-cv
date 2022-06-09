@@ -25,6 +25,3 @@
 
 ### **Skills:**
 ### HTML, CSS, Bootstrap, JavaScript
-
-### **Interest:**
-### playing chess and playing LoL
