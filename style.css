@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    padding: 0 70px;
+}
+.header {
+    padding: 15px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b8070;
+}
+.header-brand a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+.header-navigation__items {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-navigation__item {
+    list-style: none;
+}
+.header-navigation__item a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 18px;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+}
+/* /header */
+
+/* welcome */
+.welcome {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-photo {
+   flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+}
+.my-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.my-info {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.my-info .main-title {
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+.my-info .line {
+    margin: 20px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #6b8070;
+}
+.my-info .main-subtitle {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 300;
+}
+
+.main-information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 5px solid #808080;
+}
+.main-information-item {
+    flex: 0 0 45%;
+    border-bottom: 1px solid #6b8070;
+    padding: 30px 0;
+}
+.section-title {
+    font-size: 24px;
+    color: #6b8070;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.contacts-item {
+    margin: 10px 0;
+    font-family: 'roboto',sans-serif;
+    color: #000;
+}
+.contacts-item i {
+    color: #6b8070;
+    margin-right: 5px;
+}
+.contacts-item a {
+    color: #6b8070;
+    text-decoration: none;
+}
+.summary {
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.skills {
+    font-family: 'roboto' , sans-serif;
+}
+.skills-items {
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.skills-item {
+    margin: 10px 0;
+}
+.skills-item span {
+    color: #6b8070;
+}
+.courses-items {
+    padding-left: 20px;
+    font-family: 'roboto', sans-serif;
+}
+.courses-item {
+    margin: 10px 0;
+}
+.courses-item a {
+    text-decoration: none;
+    color: #6b8070;
+}
+.english, .education {
+    border-bottom: none;
+}
+.education h3, .english h3 {
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer {
+    margin-top: 50px;
+    padding: 15px 70px;
+    background-color: #6b8070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rights {
+    color: #fff;
+}
+.rights i {
+    margin-right: 5px;
+}
+.user a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+}
+.rsschool svg {
+    width: 100px;
+}
